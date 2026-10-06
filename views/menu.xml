@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Acción Client para OWL -->
+        <record id="action_quick_transfer_owl" model="ir.actions.client">
+            <field name="name">Transferencia Rápida</field>
+            <field name="tag">quick_transfer_action</field>
+            <field name="path">quick-warehouse-transfer</field>
+        </record>
+
+        <!-- Menú Principal -->
+        <menuitem id="menu_quick_transfer_root"
+                  name="Transferencias"
+                  action="action_quick_transfer_owl"
+                  sequence="10"/>
+    </data>
+</odoo>
