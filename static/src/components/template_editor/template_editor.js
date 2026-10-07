@@ -8,13 +8,9 @@ export class TemplateEditor extends Component {
 
     setup() {
         onMounted(() => {
-            this.editor = grapesjs.init({
-                container: "#gjs",
-                height: "100vh",
-                storageManager: false,
-            });
+            
         });
     }
 }
 
-registry.category("actions").add("quick_transfer_action", TemplateEditor);
+registry.category("actions").add("template_editor_action", TemplateEditor);

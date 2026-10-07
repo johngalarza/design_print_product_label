@@ -2,16 +2,16 @@
 <odoo>
     <data>
         <!-- Acción Client para OWL -->
-        <record id="action_quick_transfer_owl" model="ir.actions.client">
-            <field name="name">Transferencia Rápida</field>
-            <field name="tag">quick_transfer_action</field>
-            <field name="path">quick-warehouse-transfer</field>
+        <record id="action_design_print_owl" model="ir.actions.client">
+            <field name="name">Diseñar e Imprimir</field>
+            <field name="tag">template_editor_action</field>
+            <field name="path">design_print</field>
         </record>
 
         <!-- Menú Principal -->
         <menuitem id="menu_quick_transfer_root"
-                  name="Transferencias"
-                  action="action_quick_transfer_owl"
+                  name="Diseñar Etiquetas"
+                  action="action_design_print_owl"
                   sequence="10"/>
     </data>
 </odoo>
