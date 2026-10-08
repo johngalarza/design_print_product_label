@@ -1,7 +1,7 @@
 <templates xml:space="preserve">
     <t t-name="design_print_product_label.TemplateEditor">
-        <div class="o_template_editor">
-            <div id="gjs"/>
+        <div class="o_studio_editor h-100">
+            <div t-ref="editorContainer" class="o_editor_container h-100"/>
         </div>
     </t>
 </templates>
